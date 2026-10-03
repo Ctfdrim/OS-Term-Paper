@@ -1,15 +1,63 @@
 \documentclass[conference]{IEEEtran}
-\usepackage{graphicx,booktabs,amsmath,cite,url}
+\usepackage{graphicx,booktabs,amsmath,cite,url,xcolor}
 \graphicspath{{../results/}}
+\definecolor{navy}{RGB}{20,50,100}
 
 \begin{document}
 
+% ------------------------------------------------------------ cover page
+\begin{titlepage}
+\centering
+\vspace*{0.5cm}
+{\color{navy}\rule{\textwidth}{2.5pt}}\par
+\vspace{0.4cm}
+{\Large\textsc{Military Institute of Science and Technology}\par}
+\vspace{0.1cm}
+{\large Department of Computer Science and Engineering\par}
+\vspace{0.4cm}
+{\color{navy}\rule{\textwidth}{0.6pt}}\par
+
+\vspace{1.8cm}
+{\large\textsc{CSE-307: Operating Systems}\par}
+\vspace{0.1cm}
+{\large Term Paper\par}
+
+\vspace{1.4cm}
+{\fontsize{27}{33}\selectfont\bfseries\color{navy} Choosing a Disk Scheduling\\[2pt] Algorithm with a\\[2pt] Decision Tree\par}
+
+\vspace{0.9cm}
+{\large\itshape Track 2: Disk Scheduling\par}
+\vspace{0.1cm}
+{\normalsize\itshape Learning-Augmented OS Heuristics:\\ Classical Algorithms Meet Adaptive Prediction\par}
+
+\vfill
+\begin{tabular}{@{}p{0.45\textwidth}@{}p{0.45\textwidth}@{}}
+\textbf{\color{navy}Submitted by} & \textbf{\color{navy}Submitted to}\\[4pt]
+Anirudha Das & Khaled Hasan Irfan\\
+ID: 202414098 & Lecturer\\
+ & Department of CSE, MIST\\
+\end{tabular}
+
+\vspace{1.6cm}
+\fbox{\begin{minipage}{0.8\textwidth}\centering\vspace{3pt}
+\textbf{Source code, results and figures}\\[3pt]
+\url{https://github.com/Ctfdrim/OS-Term-Paper}\vspace{3pt}
+\end{minipage}}
+
+\vspace{1.2cm}
+{\large October 2026\par}
+\vspace{0.4cm}
+{\color{navy}\rule{\textwidth}{2.5pt}}\par
+\end{titlepage}
+
+% ------------------------------------------------------------ paper
 \title{Choosing a Disk Scheduling Algorithm with a Decision Tree}
 
 \author{\IEEEauthorblockN{Anirudha Das (ID: 202414098)}
-\IEEEauthorblockA{CSE-307 Operating Systems, Section B\\
+\IEEEauthorblockA{CSE-307 Operating Systems\\
 Department of Computer Science and Engineering, MIST\\
-anirudhadas1705@gmail.com}}
+anirudhadas1705@gmail.com\\
+Code: \url{https://github.com/Ctfdrim/OS-Term-Paper}}}
 
 \maketitle
 
