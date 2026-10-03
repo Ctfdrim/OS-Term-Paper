@@ -122,13 +122,6 @@ python3 linux_test.py            # writes a 256 MB test file in /var/tmp and rem
 
 All outputs (CSV tables + PNG charts) are saved to the `results/` folder.
 
-### Build the Paper
-
-```bash
-cd paper
-pdflatex main.tex && pdflatex main.tex
-```
-
 ---
 
 ## Results Summary
