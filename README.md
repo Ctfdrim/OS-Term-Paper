@@ -1,4 +1,4 @@
-# CSE-307: Learned Disk Scheduler Selector — Term Paper (Track 2)
+# Which Scheduler Next? Teaching a Decision Tree to Pick the Disk Scheduler
 
 **Course:** CSE-307 Operating Systems (Spring 2026, Section B)  
 **Author:** Anirudha Das (ID 202414098)  
