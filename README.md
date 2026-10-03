@@ -1,6 +1,6 @@
 # Which Scheduler Next? Teaching a Decision Tree to Pick the Disk Scheduler
 
-**Course:** CSE-307 Operating Systems  
+**Course:** Operating Systems(CSE-307)  
 **Author:** Anirudha Das (ID 202414098)  
 **Topic:** Learning-Augmented OS Heuristics — Classical Algorithms Meet Adaptive Prediction
 
