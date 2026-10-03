@@ -1,0 +1,7 @@
+Policy,Total Seek (k tracks),Std,Above Best (%),Phase 1 (sequential),Phase 2 (random),Phase 3 (bursty),Phase 4 (sequential)
+FCFS,528.7,178.8,739.0,1292,2501,855,734
+SCAN,77.5,8.2,22.9,172,286,197,142
+C-SCAN,120.5,8.5,91.2,283,385,315,257
+SSTF,65.1,6.8,3.4,129,272,157,111
+Selector,64.1,6.6,1.7,131,256,158,113
+Best,63.0,6.3,0.0,128,254,154,111

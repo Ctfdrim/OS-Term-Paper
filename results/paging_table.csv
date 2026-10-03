@@ -1,0 +1,6 @@
+Policy,Tracks per request,Fault time (ms),EAT p=1e-4 (ns),EAT p=1e-2 (us)
+FCFS,29.5,7.94,894,79.5
+SCAN,4.3,4.92,592,49.3
+C-SCAN,6.7,5.21,621,52.2
+SSTF,3.6,4.84,584,48.5
+Selector,3.6,4.83,583,48.4

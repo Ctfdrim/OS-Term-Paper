@@ -1,0 +1,49 @@
+|--- frac_below_head <= 1.00
+|   |--- frac_below_head <= 0.01
+|   |   |--- mean_jump <= 0.01
+|   |   |   |--- mean_jump <= 0.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- mean_jump >  0.00
+|   |   |   |   |--- burstiness <= 0.94
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- burstiness >  0.94
+|   |   |   |   |   |--- class: 0
+|   |   |--- mean_jump >  0.01
+|   |   |   |--- mean_jump <= 0.34
+|   |   |   |   |--- track_std <= 0.18
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- track_std >  0.18
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- mean_jump >  0.34
+|   |   |   |   |--- track_std <= 0.29
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- track_std >  0.29
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |--- frac_below_head >  0.01
+|   |   |--- head_pos <= 0.48
+|   |   |   |--- track_std <= 0.22
+|   |   |   |   |--- mean_jump <= 0.01
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- mean_jump >  0.01
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- track_std >  0.22
+|   |   |   |   |--- frac_below_head <= 0.37
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- frac_below_head >  0.37
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- head_pos >  0.48
+|   |   |   |--- mean_jump <= 0.01
+|   |   |   |   |--- frac_below_head <= 0.80
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- frac_below_head >  0.80
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- mean_jump >  0.01
+|   |   |   |   |--- track_std <= 0.27
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- track_std >  0.27
+|   |   |   |   |   |--- truncated branch of depth 2
+|--- frac_below_head >  1.00
+|   |--- queue_depth <= 10.50
+|   |   |--- class: 1
+|   |--- queue_depth >  10.50
+|   |   |--- class: 1
