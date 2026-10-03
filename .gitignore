@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+# LaTeX build files (the compiled paper/main.pdf IS committed)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
