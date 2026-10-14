@@ -1,29 +1,5 @@
 #!/usr/bin/env python3
-"""
-CSE-307: Operating Systems — Term Paper (Track 2)
-Learned Disk Scheduler Selector
 
-Author : Anirudha Das (ID 202414098)
-Course : CSE-307 Operating Systems, Spring 2026
-
-This script implements four disk-scheduling algorithms and a small decision
-tree that picks the best one for a window of pending requests:
-
-    1. FCFS   — First-Come, First-Served
-    2. SCAN   — elevator algorithm
-    3. C-SCAN — circular SCAN
-    4. SSTF   — Shortest Seek Time First
-    5. Selector — decision tree that predicts which of the four needs the
-                  least head movement, with a confidence score
-
-The selector is tested on workloads that change type partway through
-(sequential -> random -> bursty -> sequential).
-
-Usage:
-    python main.py                  # run with defaults
-    python main.py --seed 7         # change random seed
-    python main.py --timelines 20   # change number of test timelines
-"""
 
 import os
 import argparse
